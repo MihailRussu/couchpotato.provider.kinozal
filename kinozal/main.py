@@ -19,7 +19,7 @@ class kinozal(TorrentProvider, MovieProvider):
         'login': "{}/takelogin.php".format(baseurl),
         'login_check': "{}/my.php".format(baseurl),
         'detail': '{}/details.php?id=%s'.format(baseurl),
-        'search': '{}/browse.php?s=%s&c=1002'.format(baseurl),
+        'search': '{}/browse.php?s=%s&c=1200'.format(baseurl),
         'download': '{}/download.php?id=%s'.format(baseurl),
     }
 
